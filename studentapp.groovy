@@ -16,3 +16,6 @@ pipeline {
                 echo 'Here we are deploying the code'
             }
         }
+
+    }
+}
