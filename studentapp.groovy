@@ -5,7 +5,7 @@ pipeline {
         stage('Pull') {
             steps {
 
-               git branch: 'main', credentialsId: 'ID', url: 'https://github.com/Mayurip31/Jenkins.git'
+               git branch: 'main', credentialsId: 'ID', url: 'https://github.com/Mayurip31/java_project.git'
                echo 'Hello World'
             }
         }
